@@ -1,0 +1,21 @@
+{
+    "name": "qr-scanner-builder",
+    "version": "1.0.0",
+    "description": "构建与客户代码兼容的QR Scanner库",
+    "private": true,
+    "scripts": {
+        "build": "node scripts/build.js",
+        "build:all-in-one": "node scripts/build-all-in-one.js"
+    },
+    "dependencies": {
+        "qr-scanner": "^1.4.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "babel-loader": "^8.2.3",
+        "fs-extra": "^10.0.0",
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
